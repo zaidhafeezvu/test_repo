@@ -20,13 +20,13 @@ body {
 .hero-logo {
     width: 120px;
     height: 120px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 32px;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
 .hero-logo svg {
@@ -56,7 +56,7 @@ body {
     border-radius: 32px;
     font-size: 1.2rem;
     font-weight: 600;
-    box-shadow: 0 4px 16px rgba(118,75,162,0.15);
+    box-shadow: 0 4px 16px rgba(118, 75, 162, 0.15);
     cursor: pointer;
     transition: background 0.2s, color 0.2s, transform 0.2s;
 }
@@ -73,53 +73,62 @@ body {
     padding: 64px 0 48px 0;
     text-align: center;
 }
+
 .features-title {
     font-size: 2.2rem;
     font-weight: 700;
     margin-bottom: 40px;
     color: #764ba2;
 }
+
 .features-list {
     display: flex;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
 }
+
 .feature {
     background: #f7f5fa;
     border-radius: 20px;
-    box-shadow: 0 2px 12px rgba(118,75,162,0.07);
+    box-shadow: 0 2px 12px rgba(118, 75, 162, 0.07);
     padding: 32px 24px;
     width: 260px;
     margin-bottom: 24px;
     transition: transform 0.2s, box-shadow 0.2s;
 }
+
 .feature:hover {
     transform: translateY(-6px) scale(1.03);
-    box-shadow: 0 8px 32px rgba(118,75,162,0.13);
+    box-shadow: 0 8px 32px rgba(118, 75, 162, 0.13);
 }
+
 .feature-icon {
     font-size: 2.5rem;
     margin-bottom: 16px;
 }
+
 .about {
     background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
     color: #fff;
     padding: 64px 0 48px 0;
     text-align: center;
 }
+
 .about-content {
     max-width: 600px;
     margin: 0 auto;
     font-size: 1.2rem;
     line-height: 1.7;
 }
+
 .contact {
     background: #fff;
     color: #222;
     padding: 64px 0 48px 0;
     text-align: center;
 }
+
 .contact-form {
     display: flex;
     flex-direction: column;
@@ -128,6 +137,7 @@ body {
     max-width: 400px;
     margin: 0 auto;
 }
+
 .contact-form input,
 .contact-form textarea {
     width: 100%;
@@ -138,6 +148,7 @@ body {
     font-family: inherit;
     resize: none;
 }
+
 .contact-form button {
     background: #764ba2;
     color: #fff;
@@ -149,61 +160,72 @@ body {
     cursor: pointer;
     transition: background 0.2s, transform 0.2s;
 }
+
 .contact-form button:hover {
     background: #667eea;
     transform: translateY(-2px) scale(1.04);
 }
+
 .testimonials {
     background: linear-gradient(135deg, #f7f5fa 0%, #e0e7ff 100%);
     color: #222;
     padding: 64px 0 48px 0;
     text-align: center;
 }
+
 .testimonials-title {
     font-size: 2.2rem;
     font-weight: 700;
     margin-bottom: 40px;
     color: #764ba2;
 }
+
 .testimonials-list {
     display: flex;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
 }
+
 .testimonial {
     background: #fff;
     border-radius: 20px;
-    box-shadow: 0 2px 12px rgba(118,75,162,0.07);
+    box-shadow: 0 2px 12px rgba(118, 75, 162, 0.07);
     padding: 32px 24px;
     width: 260px;
     margin-bottom: 24px;
     font-style: italic;
     transition: transform 0.2s, box-shadow 0.2s;
 }
+
 .testimonial:hover {
     transform: translateY(-6px) scale(1.03);
-    box-shadow: 0 8px 32px rgba(118,75,162,0.13);
+    box-shadow: 0 8px 32px rgba(118, 75, 162, 0.13);
 }
+
 .testimonial-quote {
     font-size: 1.1rem;
     margin-bottom: 12px;
 }
+
 .testimonial-author {
     font-size: 1rem;
     color: #764ba2;
     font-style: normal;
 }
+
 .footer {
     background: #764ba2;
     color: #fff;
     padding: 24px 0;
     text-align: center;
 }
+
 .footer-content {
     font-size: 1rem;
     letter-spacing: 1px;
 }
+
 .github-pages-badge {
     display: inline-flex;
     align-items: center;
@@ -213,27 +235,31 @@ body {
     padding: 4px 12px;
     font-size: 0.95rem;
     margin-top: 12px;
-    box-shadow: 0 2px 8px rgba(36,41,47,0.08);
+    box-shadow: 0 2px 8px rgba(36, 41, 47, 0.08);
 }
+
 .github-pages-badge a {
     color: #fff;
     text-decoration: underline;
     margin-left: 4px;
 }
+
 .navbar {
     position: sticky;
     top: 0;
     width: 100%;
     z-index: 1000;
-    background: rgba(255,255,255,0.15);
+    background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(8px);
     transition: background 0.3s, box-shadow 0.3s;
     box-shadow: none;
 }
+
 .navbar.scrolled {
-    background: rgba(36,41,47,0.85);
-    box-shadow: 0 2px 16px rgba(36,41,47,0.08);
+    background: rgba(36, 41, 47, 0.85);
+    box-shadow: 0 2px 16px rgba(36, 41, 47, 0.08);
 }
+
 .navbar-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -242,18 +268,21 @@ body {
     justify-content: space-between;
     padding: 12px 32px;
 }
+
 .navbar-logo {
     display: flex;
     align-items: center;
     gap: 10px;
     text-decoration: none;
 }
+
 .navbar-title {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #764ba2;
+    color: #fff;
     letter-spacing: 1px;
 }
+
 .navbar-links {
     list-style: none;
     display: flex;
@@ -261,63 +290,88 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .nav-link {
-    color: #222;
+    color: #fff;
     text-decoration: none;
     font-size: 1.05rem;
     font-weight: 500;
     transition: color 0.2s;
     position: relative;
 }
-.nav-link:hover, .nav-link.active {
-    color: #764ba2;
+
+.nav-link:hover,
+.nav-link.active {
+    color: #667eea;
 }
+
 .navbar.scrolled .nav-link {
     color: #fff;
 }
+
+.navbar.scrolled .nav-link:hover,
+.navbar.scrolled .nav-link.active {
+    color: #a5b4fc;
+}
+
 .navbar.scrolled .navbar-title {
     color: #fff;
 }
+
 @media (max-width: 900px) {
     .features-list {
         flex-direction: column;
         gap: 24px;
     }
+
     .testimonials-list {
         flex-direction: column;
         gap: 24px;
     }
 }
+
 @media (max-width: 700px) {
     .navbar-container {
         flex-direction: column;
         align-items: flex-start;
         padding: 12px 16px;
     }
+
     .navbar-links {
         gap: 16px;
     }
 }
+
 @media (max-width: 600px) {
     .hero-title {
         font-size: 2rem;
     }
+
     .hero-subtitle {
         font-size: 1.1rem;
     }
+
     .hero-logo {
         width: 80px;
         height: 80px;
     }
+
     .hero-logo svg {
         width: 40px;
         height: 40px;
     }
-    .features-title, .about-content, .contact-form, .testimonials-title, .footer-content {
+
+    .features-title,
+    .about-content,
+    .contact-form,
+    .testimonials-title,
+    .footer-content {
         padding-left: 16px;
         padding-right: 16px;
     }
-    .feature, .testimonial {
+
+    .feature,
+    .testimonial {
         width: 100%;
     }
 }
