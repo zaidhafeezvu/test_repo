@@ -204,6 +204,22 @@ body {
     font-size: 1rem;
     letter-spacing: 1px;
 }
+.github-pages-badge {
+    display: inline-flex;
+    align-items: center;
+    background: #24292f;
+    color: #fff;
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 0.95rem;
+    margin-top: 12px;
+    box-shadow: 0 2px 8px rgba(36,41,47,0.08);
+}
+.github-pages-badge a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 4px;
+}
 @media (max-width: 900px) {
     .features-list {
         flex-direction: column;
